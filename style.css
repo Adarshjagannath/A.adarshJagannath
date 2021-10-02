@@ -1,0 +1,202 @@
+body{
+    background-image: url(7.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 16cm;
+}
+
+
+h1{
+    color: azure;
+    font-size: 1.3cm;
+    font-family: Agency FB;
+    font-weight: bold;
+    margin-top: 6cm;
+    margin-left: 4.9cm;
+
+    animation: type 7.7s steps(17) ;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid black ;
+    width: 14ch;
+}
+@keyframes type {
+    0%{
+        width : 0ch;
+    }
+    100%{
+        width: 17ch;
+    }
+}
+
+
+
+h4{
+    font-size: 0.5cm;
+    margin-top: -3cm;
+    margin-left: 4.8cm;
+}
+
+h3{
+    margin-left: 24cm;
+    margin-top: -6cm;
+    font-size: 1cm;
+    animation: opac 7s  ;
+    font-family: Agency FB;
+    letter-spacing: 3px;
+    
+    color: aqua;
+    transition: 0.3s;
+    text-shadow: 0 0 10px aqua,
+                 0 0 20px aqua,
+                 0 0 40px aqua,
+                 0 0 80px aqua,
+                 0 0 120px aqua,
+                 0 0 170px aqua;
+}
+h3:hover{
+    
+
+
+    color: magenta;
+    transition: 0.3s;
+    text-shadow: 0 0 10px magenta,
+                 0 0 20px magenta,
+                 0 0 40px magenta,
+                 0 0 80px magenta,
+                 0 0 120px magenta,
+                 0 0 170px magenta;
+}
+@keyframes opac{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+img{
+    height: 70px;
+    width: 70px;
+    margin-left: 33cm;
+    margin-top: 7px;
+    padding-top: 7px; 
+    border-radius: 47%;
+    box-shadow: 0.5cm 0.5cm 0.5cm rgba(0, 0, 0, 0.8);
+}
+
+img:hover{
+
+    /* background-color: rgba(0, 0, 0, 0.0); */
+    transition: 0.5s;
+    height: 90px;
+    width: 90px;
+
+    border-radius:47%;
+    box-shadow: 0.7cm 0.7cm 0.7cm rgba(0, 0, 0, 1.3);
+
+}
+
+
+div.mni a img.mn{
+    height: 5cm;
+    width: 5cm;
+    border-radius: 0%;
+    margin-left: 6.5cm;
+    margin-top: -12cm;
+    margin-bottom: -1cm;
+   
+}
+div.mni a img.mn:hover{
+    height: 6cm;
+    width: 6cm;
+    color: white;
+    transition: 0.3s;
+}
+
+
+header{
+    width: 100% ; 
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+
+}
+
+h2{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 0px;
+    color: #39ca74;
+    font-size: 1.3cm;
+}
+
+span{
+    color: white;
+    transition: 0.3s;
+    text-shadow: 0 0 10px white,
+                 0 0 20px white,
+                 0 0 40px white,
+                 0 0 80px white,
+                 0 0 120px white,
+                 0 0 170px white;
+               
+    animation: blink 0.8s linear infinite;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: -0.15cm;
+}
+
+a{
+    color: #ffffff;
+    font-size: 0.5cm;
+    font-weight: 500;
+    font-family: Techno Board;
+    letter-spacing: 3.3px;
+    text-decoration: none;
+    box-shadow: black;
+ 
+}
+ 
+a:hover{
+
+
+    color: aqua;
+    transition: 0.17s;
+
+    text-shadow: 0 0 10px aqua,
+                 0 0 20px aqua,
+                 0 0 40px aqua,
+                 0 0 80px aqua,
+                 0 0 120px aqua,
+                 0 0 170px aqua;
+}
+
+
+
+
+::-webkit-scrollbar{
+    color: transparent;
+    width: 0;
+}
+

@@ -1,0 +1,81 @@
+body{
+    background-image: url(./7.7.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+  margin-left: 21%;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1cm;
+  font-family: Techno Board;
+  letter-spacing: 2px;
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 0.2px;
+  color: white;
+    transition: 0.3s;
+    text-shadow: 0 0 10px white,
+                 0 0 20px white,
+                 0 0 40px white,
+                 0 0 80px white,
+                 0 0 120px white,
+                 0 0 170px white;
+}
+h1:hover{
+    transition: 0.3s;
+    transition-duration: 0.7s;
+    transition-delay: 0.7s;
+    color: aqua;
+    transition: 0.3s;
+    text-shadow: 0 0 10px aqua,
+                 0 0 20px aqua,
+                 0 0 40px aqua,
+                 0 0 80px aqua,
+                 0 0 120px aqua,
+                 0 0 170px aqua;
+}
+
+.login{
+   width: 350px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+}
+
+.login p {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    margin: 0px 130px;
+    font-family: Agency FB;
+    font-weight: bold;
+    -webkit-text-stroke :0.5px white;
+}
+
+.login input{ 
+    font-size: 17px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius:27px;
+}
+.login input:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login button{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    width: 43%;
+    font-weight: bold;
+    margin: 17px 110px;
+}
+.login button:hover{
+    transition: 0.3s;
+    font-size: 21px;
+    transition-duration: 0.3s;
+}
